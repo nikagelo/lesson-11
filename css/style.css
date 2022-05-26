@@ -1,0 +1,29 @@
+.container {
+  max-width: 1475px;
+  width: 100%;
+  margin: 0 auto;
+}
+.header_back {
+  background-color: #0020f4;
+  height: 388px;
+}
+.nav-ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-ul li a {
+  margin-left: 50px;
+  color: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.main-img {
+  display: flex;
+  justify-content: center;
+  transform: translateY(20%);
+  margin: 0 auto;
+}
