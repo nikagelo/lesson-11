@@ -73,7 +73,7 @@ nav {
 }
 footer {
   background-color: #0020f4;
-  height: 1080px;
+  height: 1400px;
   position: relative;
   left: 0;
   top: 1600px;
@@ -166,4 +166,25 @@ input {
 .send-wrapper {
   display: flex;
   justify-content: flex-end;
+}
+hr {
+  border: 1px solid skyblue;
+  opacity: 0.2;
+}
+.bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.creators {
+  display: flex;
+}
+.creators p {
+  font-size: 13px;
+  color: white;
+  margin-right: 30px;
+}
+.rights span {
+  font-size: 16px;
+  color: #fff;
 }
