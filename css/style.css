@@ -16,6 +16,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+#contact-button {
+  font-weight: bolder;
+  background-color: #fff;
+  color: black;
+  width: 160px;
+  border-radius: 28px;
+  padding: 18px 43px 18px 36px;
+}
+
 .nav-ul li a {
   margin-left: 50px;
   color: #fff;
@@ -24,7 +33,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 40px;
 }
 .img-wrapper {
   margin-top: 133px;
@@ -73,7 +81,7 @@ nav {
 }
 footer {
   background-color: #0020f4;
-  height: 1400px;
+  height: 1140px;
   position: relative;
   left: 0;
   top: 1600px;
@@ -107,6 +115,9 @@ footer {
   flex-wrap: wrap;
 }
 .dots img {
+  transform: translate(75%, 75%);
+}
+svg {
   transform: translate(75%, 75%);
 }
 .contact-txt {
@@ -187,4 +198,87 @@ hr {
 .rights span {
   font-size: 16px;
   color: #fff;
+}
+.nav-logo {
+  display: none;
+}
+@media (max-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+  .logo {
+    margin: 0 auto;
+  }
+  .txt {
+    width: auto;
+    margin: 0 20px;
+  }
+  .main-img {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .article-wrapper {
+    margin-left: unset;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .article-imgs :last-child {
+    display: none;
+  }
+  .article-imgs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .article-imgs img {
+    margin-bottom: 10px;
+  }
+  .contact-wrapper {
+    flex-direction: column-reverse;
+  }
+  footer {
+    margin-top: 60px;
+    height: 1550px;
+  }
+  .footer-wrapper {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .h2 {
+    margin-bottom: 40px;
+    margin-top: unset;
+  }
+  .send {
+    width: 100%;
+    font-weight: bolder;
+  }
+  .contact-txt {
+    display: none;
+  }
+  .map {
+    width: 100%;
+  }
+  .dots-wrapper {
+    justify-content: space-between;
+  }
+  hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .bottom {
+    flex-direction: column-reverse;
+  }
+  .creators {
+    margin: 0 auto;
+  }
+  .rights {
+    margin: 35px auto;
+    opacity: 60%;
+  }
+  .nav-logo {
+    display: inline;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
 }
