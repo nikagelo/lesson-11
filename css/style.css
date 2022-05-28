@@ -167,6 +167,9 @@ input {
   border: none;
   background-color: transparent;
 }
+.input-fields input:focus {
+  outline: none;
+}
 .send {
   width: 151px;
   height: 55px;
@@ -210,8 +213,8 @@ hr {
     margin: 0 auto;
   }
   .txt {
-    width: auto;
-    margin: 0 20px;
+    margin-left: unset;
+    width: 100%;
   }
   .main-img {
     width: 90%;
@@ -280,5 +283,8 @@ hr {
     width: 60px;
     height: 60px;
     margin: 0 auto;
+  }
+  #message {
+    width: 100%;
   }
 }
