@@ -286,5 +286,6 @@ hr {
   }
   #message {
     width: 100%;
+    outline: none;
   }
 }
